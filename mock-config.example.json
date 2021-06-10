@@ -1,5 +1,6 @@
 {
   "port": 3000,
+  "http1Port": 3001,
   "failureRate": 0.2,
   "averageResponseTime": 500,
   "responseTimeDeviation": 100

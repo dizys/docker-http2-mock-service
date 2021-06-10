@@ -4,6 +4,7 @@ import {camelToSnakeCase} from './utils';
 
 export interface Config {
   port: number;
+  http1Port: number;
   /**
    * Failure rate (0~1)
    */
@@ -20,6 +21,7 @@ export interface Config {
 
 const DEFAULT_CONFIG: Config = {
   port: 3000,
+  http1Port: 3001,
   failureRate: 0.2,
   averageResponseTime: 500,
   responseTimeDeviation: 100,

@@ -23,6 +23,9 @@ if (keys) {
   server = HTTP2.createServer(app.callback());
 }
 
+app.listen(config.http1Port, () => {
+  console.info(`HTTP1 mock service listening on port: ${config.http1Port}...`);
+});
 server.listen(config.port, () => {
   console.info(`HTTP2 mock service listening on port: ${config.port}...`);
 });
