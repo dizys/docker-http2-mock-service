@@ -1,0 +1,25 @@
+{
+  "name": "docker-http2-mock-service",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && tsc --project src/tsconfig.json",
+    "start": "node dist/main.js",
+    "start-nodemon": "nodemon dist/main.js"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.3",
+    "@types/koa__router": "^8.0.4",
+    "@types/node": "^15.12.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "nodemon": "^2.0.7",
+    "tslib": "^2.2.0"
+  }
+}

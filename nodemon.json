@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "watch": [
+    "keys/",
+    "mock-config.json",
+    "/etc/mock-config.json",
+    "/etc/mock-server.key",
+    "/etc/mock-server.crt"
+  ]
+}
