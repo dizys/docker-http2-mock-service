@@ -1,0 +1,7 @@
+dist/
+/keys/
+node_modules/
+.gitignore
+.prettierignore
+.prettierrc
+mock-config.json
