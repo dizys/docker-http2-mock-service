@@ -68,4 +68,6 @@ for (let configKey of Object.keys(config)) {
   }
 }
 
+console.log(`Final config: \n${JSON.stringify(config, undefined, 2)}`);
+
 export {config};
